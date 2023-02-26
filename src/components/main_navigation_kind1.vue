@@ -37,22 +37,23 @@
 
 <style scoped>
   .kind1_box{
-    width: 50px;
+    width: 3.29vw;
     text-align: center;
+    margin: 0 0.2vw;
   }
   .kind1_img_box{
     margin: auto;
-    width: 38px;
-    height: 38px;
+    width: 2.5vw;
+    height: 2.5vw;
     border-radius: 50%;
-    padding: 6px;
+    padding: 0.39vw;
     box-sizing: border-box;
   }
   .kind1_img_box img{
     width: 100%;
   }
   .kind1_box span{
-    font-size: 16px;
+    font-size: 1.05vw;
     font-weight: 600;
     color: black;
   }

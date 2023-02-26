@@ -1,7 +1,7 @@
 <template>
     <div class="home_header">
       <div class="navigation">
-        <ul>
+        <ul class="navigation_list">
           <li>
             <a href="#" target="_blank">
               <img src="../static/img/Bilibili.png" alt="">
@@ -41,13 +41,15 @@
             </a>
           </li>
           <li class="ceremony_container">
-            <a href="https://www.bilibili.com/v/game/match/">
-              <div class="ceremony_box">
-                <img src="../static/img/ceremony.png" alt="">
-                <span>跨晚</span>
-                <img src="../static/img/ceremony.png" alt="">
-              </div>
-            </a>
+            <div>
+              <a href="https://www.bilibili.com/v/game/match/">
+                <div class="ceremony_box">
+                  <img src="../static/img/ceremony.png" alt="">
+                  <span>跨晚</span>
+                  <img src="../static/img/ceremony.png" alt="">
+                </div>
+              </a>
+            </div>
           </li>
           <li>
             <a href="https://bw.bilibili.com/">
@@ -176,11 +178,11 @@
   .home_header{
     position: relative;
     width: 100%;
-    height: 155px;
+    height: 9.38vw;
   }
   .navigation{
     width: 100%;
-    height: 50px;
+    height: 3.29vw;
     position: relative;
     box-shadow: 0 30px 40px -30px inset black;
     display: flex;
@@ -189,6 +191,13 @@
   .navigation>ul{
     list-style: none;
     display: flex;
+  }
+  .navigation_list{
+    margin-left: 1.5vw;
+  }
+  .navigation_list>li{
+    display: flex;
+    align-items: center;
   }
   .home_header_img{
     width: 100%;
@@ -203,15 +212,14 @@
   }
   .home_header_img img{
     text-align: center;
-    width: 1654px;
-    height: 100%;
+    width: 100%;
     position: absolute;
   }
   .navigation li:nth-child(1) img{
-    width: 20px;
+    width: 1.317vw;
   }
   .navigation span{
-    font-size: 16px;
+    font-size: 1.05vw;
     font-weight: 600;
     padding: 0 6px;
     color: #ffffff;
@@ -222,37 +230,37 @@
   }
   @keyframes upForwards {
     20%{
-      transform: translateY(-56.4px);
+      transform: translateY(-3.71vw);
     }
     50%{
-      transform: translateY(-56.4px);
+      transform: translateY(-3.71vw);
     }
     70%{
-      transform: translateY(-84.8px);
+      transform: translateY(-5.58vw);
     }
     100%{
-      transform: translateY(-84.8px);
+      transform: translateY(-5.58vw);
     }
   }
   .ceremony_box{
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 20px;
+    top: 1.317vw;
     text-align: center;
-    transform: translateY(-28px);
+    transform: translateY(-1.84vw);
     animation: upForwards 4s infinite;
   }
   .ceremony_box>img{
-    width: 54px;
+    width: 3.55vw;
   }
-  .ceremony_container{
+  .ceremony_container>div{
+    width: 3.62vw;
+    height: 1.317vw;
     overflow: hidden;
     position: relative;
-    width: 55px;
-    height: 20px;
     display: flex;
-    padding: 0 4px;
+    padding: 0 0.13vw;
   }
   .QR_code_box{
     position: relative;
@@ -265,8 +273,8 @@
   }
   .QR_code{
     display: block;
-    width: 282px;
-    height: 212px;
+    width: 18.57vw;
+    height: 13.96vw;
   }
   .input_container{
     display: flex;
@@ -286,22 +294,22 @@
   }
   .input_box input{
     width: 100%;
-    height: 34px;
+    height: 2.24vw;
     border: none;
     outline: none;
-    padding: 0 10px 0;
-    font-size: 14px;
+    padding: 0 0.65vw 0;
+    font-size: 0.92vw;
     font-weight: 400;
     box-sizing: border-box;
     box-shadow: 3px 3px 5px -2px whitesmoke inset;
   }
   .input_box>button{
-    width: 48px;
-    height: 34px;
-    margin-right: 15px;
+    width: 3.16vw;
+    height: 2.24vw;
+    margin-right: 0.99vw;
     background-color: #e7e7e7;
     background-repeat: no-repeat;
-    background-size: 16px;
+    background-size: 1.05vw;
     background-position: center;
     background-image: url("../static/img/search_static.png");
     border: 1px darkgray;
@@ -318,11 +326,11 @@
     align-items: center;
   }
   .publish_box{
-    padding: 0 20px 0 10px;
+    padding: 0 1.32vw 0 0.98vw;
   }
   .publish{
-    width: 90px;
-    height: 36px;
+    width: 5.92vw;
+    height: 2.37vw;
     display: flex;
     justify-content: center;
     align-items: center;

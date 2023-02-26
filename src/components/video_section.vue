@@ -46,10 +46,10 @@
     align-items: center;
   }
   .video_section_1>img{
-    width: 34px;
+    width: 2.23vw;
   }
   .video_section_1 span:nth-child(1){
-    font-size: 20px;
+    font-size: 1.31vw;
     font-weight: 600;
     padding-left: 5px;
     transition: 0.4s;
@@ -57,7 +57,7 @@
   }
   .video_section_1 span:nth-child(2){
     margin-right: 0;
-    font-size: 14px;
+    font-size: 0.92vw;
     padding: 3px 5px;
     background-color: white;
     border: 1px solid cornflowerblue;

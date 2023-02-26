@@ -41,19 +41,19 @@
   }
   .advertised_item{
     width: 100%;
-    text-indent: 34px;
+    text-indent: 2.23vw;
     position: relative;
-    padding-top: 4px;
+    padding-top: 0.26vw;
   }
   .advertised_item>img{
-    width: 30px;
+    width: 1.97vw;
     position: absolute;
     left: 0;
   }
   .advertised_item>span{
-    font-size: 14px;
+    font-size: 0.92vw;
     color: black;
-    line-height: 28px;
+    line-height: 1.84vw;
   }
   .advertised_item>span:hover{
     color: cornflowerblue;

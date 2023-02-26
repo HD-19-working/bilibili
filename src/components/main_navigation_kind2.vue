@@ -48,7 +48,7 @@
       data(){
         return{
           kind2_section_box_style:{
-            width:window.Math.ceil(this.data.section_data.length/4)*100+'px'
+            width:window.Math.ceil(this.data.section_data.length/4)*5.85+'vw'
           },
           kind2_section_box_class:this.index%2===0 ? 'upward_hidden':'downward_hidden',
           is_inside:0
@@ -114,29 +114,40 @@
     display: flex;
     justify-content: center;
     position: relative;
-    line-height: 30px;
-    padding: 0 3px;
+    line-height: 1.97vw;
+    padding: 0 0.19vw;
+    margin: 0;
   }
   .kind2_text{
     display: inline-block;
   }
   .kind2_text span{
-    font-size: 14px;
+    font-size: 0.82vw;
     color: black;
     font-weight: 600;
   }
   .kind2_text span:nth-child(2){
     padding: 0 4px;
-    width: 38px;
-    height: 20px;
     box-sizing: border-box;
-    font-size: 12px;
+    height: 1.31vw; 
     background-color: cornflowerblue;
     color: white;
     border-radius: 10px;
     text-align: center;
-    line-height: 20px;
-    margin-left: 3px;
+    line-height: 1.31vw;
+    margin-left: 0.19vw;
+  }
+  @media screen and (max-width:1480px) {
+    .kind2_text span:nth-child(2){
+      width: 3.2vw;
+      font-size: 0.19vw;
+    }
+  }
+  @media screen and (min-width:1480px) {
+    .kind2_text span:nth-child(2){
+      width: 2.4vw;
+      font-size: 0.69vw;
+    }
   }
   .kind2_text>a{
     display: flex;
@@ -144,8 +155,8 @@
   }
   .kind2_section{
     width: 100%;
-    max-height: 148px;
-    padding: 8px;
+    max-height: 9.74vw;
+    padding: 0.52vw;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -155,7 +166,7 @@
     color: cornflowerblue;
   }
   .kind2_section>a{
-    line-height: 30px;
+    line-height: 1.97vw;
   }
   .kind2_section_box{
     background-color: white;
@@ -166,9 +177,9 @@
     transition: 0.4s;
   }
   .kind2_section_text{
-    font-size: 12px;
+    font-size: 0.69vw;
     color: grey;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 1.97vw;
   }
 </style>

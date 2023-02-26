@@ -22,7 +22,7 @@ const LazyLoad = {
     const elTop = el.getBoundingClientRect().top
     const elBtm = el.getBoundingClientRect().bottom
     const realSrc = el.dataset.src
-    if (realSrc != el.src && elTop - windowHeight < 0 && elBtm > 0) {
+    if (realSrc != el.src && elTop - (windowHeight+50) < 0 && elBtm > 0) {
       preLoad([realSrc]).then(()=>{
         el.src = realSrc;
       })

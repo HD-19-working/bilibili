@@ -2,7 +2,7 @@
   <div class="game_section_box">
     <div class="game_section_item1">
       <a :href="game_img_data[0].linkTo">
-        <img :src="game_img_data[0].img" alt="" />
+        <img :src="game_img_data[0].img" class="item1_img" alt="" />
       </a>
       <div>
         <a :href="item.linkTo" v-for="(item,index) of game_img_data.slice(1)"
@@ -55,12 +55,12 @@
   .game_section_box{
     display: flex;
     width: auto;
-    padding: 10px 0 0 10px;
+    padding: 10px 0 10px 10px;
     background-color: white;
     border-radius: 10px;
   }
   .game_section_item1{
-    width: 240px;
+    width: 15.8vw;
   }
   .game_section_item1>a>img{
     border-radius: 8px;
@@ -68,34 +68,36 @@
   .game_section_item1>div{
     display: flex;
     box-sizing: border-box;
-    padding: 2px;
+    padding: 0.13vw;
+  }
+  .item1_img{
+    width: 100%;
   }
   .game_section_img_item>img{
     border-radius: 15px;
-    width: 64px;
+    width: 4.21vw;
   }
   .game_section_img_item>div{
-    font-size: 13px;
+    font-size: 0.85vw;
     text-align: center;
-    height: 30px;
+    height: 1.97vw;
   }
   .game_section_img_item{
-    width: 64px;
-    padding: 5px 7px;
+    width: 4.21vw;
+    padding: 0.32vw 0.46vw;
   }
   .game_section_img_item:hover{
     border-radius: 5px;
     background-color: rgba(128,128,128,0.25);
   }
   .game_section_item2{
-    margin-left: 20px;
-    padding-top: 40px;
+    margin-left: 1.31vw;
+    padding-top: 2.62vw;
     box-shadow: -4px 0 4px -4px grey;
-    height: 200px;
     background-image: url("../static/img/game_section_title.png");
-    background-size: 120px;
+    background-size: 7.9vw;
     background-repeat: no-repeat;
-    background-position: -12px 0;
+    background-position: -0.79vw 0;
   }
   .game_section_item2>ul{
     list-style: none;
@@ -106,10 +108,10 @@
     color: cornflowerblue;
   }
   .game_list_item div{
-    font-size: 12px;
+    font-size: 0.79vw;
     font-weight: 400;
-    line-height: 28px;
-    padding-left: 15px;
-    width: 160px;
+    line-height: 1.84vw;
+    padding-left: 0.98vw;
+    width: 10.53vw;
   }
 </style>

@@ -22,19 +22,19 @@
 
 <style scoped>
   .advertised_container{
-    padding: 15px;
+    padding: 0.98vw;
     background-color: white;
     border-radius: 5px;
   }
   .advertised_container>div:nth-child(1){
-    padding: 0 0 10px 0;
-    font-size: 16px;
+    padding: 0 0 0.65vw 0;
+    font-size: 1.05vw;
     font-weight: 600;
     color: grey;
   }
   .advertised_background{
-    width: 320px;
-    height: 200px;
+    width: 21.07vw;
+    height: 12.17vw;
     background-image: url("../static/img/danmu.png");
     background-size: 100%;
     background-position: center;
@@ -48,7 +48,7 @@
       transform: translateX(0px);
     }
     100%{
-      transform: translateX(-320px);
+      transform: translateX(-21.07vw);
     }
   }
   .move_body{
@@ -58,17 +58,18 @@
     animation: move-forever 4s linear infinite;
   }
   .advertised_button{
-    padding: 15px 0;
+    padding: 0.98vw 0;
     display: flex;
     justify-content: space-around;
   }
   .advertised_button>a{
     width: 47%;
-    height: 38px;
+    height: 2.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 600;
+    font-size: 1.05vw;
     border-radius: 10px;
     transition: 0.5s;
   }

@@ -113,8 +113,8 @@ const useHomeHeader = defineStore("homeHeader",{
         img:{
           url:require('@/static/img/phone.png'),
           style:{
-            width:'22px',
-            height:'22px'
+            width:'1.44vw',
+            height:'1.44vw'
           }
         }
       },
@@ -126,11 +126,11 @@ const useHomeHeader = defineStore("homeHeader",{
         img:{
           url:require('@/static/img/akari.jpg'),
           style:{
-            width:'36px',
-            height:'36px',
+            width:'2.37vw',
+            height:'2.37vw',
             borderRadius:'50%',
             overflow:'hidden',
-            marginRight:'5px'
+            marginRight:'0.33vw'
           }
         }
       },

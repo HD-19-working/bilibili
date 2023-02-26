@@ -29,15 +29,15 @@
   .advertisement_box{
     width: 100%;
     position: relative;
-    padding: 40px 0;
+    padding: 2.63vw 0;
   }
   .advertisement_box img:nth-child(1){
     width: 100%;
   }
   .advertisement_box img:nth-child(2){
-    width: 30px;
+    width: 1.97vw;
     position: absolute;
-    left: 20px;
-    bottom: 20px;
+    left: 1.31vw;
+    bottom: 1.31vw;
   }
 </style>

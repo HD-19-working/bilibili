@@ -42,7 +42,7 @@
       data(){
           return{
             tag_style:{
-              transform:'translateY(calc(100% - 32px))'
+              transform:'translateY(calc(100% - 2vw))'
             },
             head_class:'hidden_class',
             flow_img_class:''
@@ -55,7 +55,7 @@
           this.flow_img_class='black_class';
         },
         hidden_tag:function () {
-          this.tag_style.transform='translateY(calc(100% - 32px))';
+          this.tag_style.transform='translateY(calc(100% - 2vw))';
           this.head_class='hidden_class';
           this.flow_img_class='';
         }
@@ -88,31 +88,31 @@
     left: 0;
   }
   .head_class_static{
-    font-size: 14px;
+    font-size: 0.92vw;
     width: 90%;
     margin: auto;
-    line-height: 22px;
-    padding-top: 10px;
-    height: 44px;
+    line-height: 1.44vw;
+    padding-top: 0.62vw;
+    height: 2.89vw;
   }
   .up_class{
     width: 90%;
     margin: auto;
     display: flex;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 0.62vw;
   }
   .up_class>img{
-    width: 20px;
+    width: 1.31vw;
   }
   .up_class>span{
-    font-size: 12px;
-    padding-left: 5px;
+    font-size: 0.79vw;
+    padding-left: 0.32vw;
   }
   .num_class{
     width: 90%;
     margin: auto;
-    font-size: 12px;
+    font-size: 0.79vw;
   }
   .hidden_class{
     white-space: nowrap;

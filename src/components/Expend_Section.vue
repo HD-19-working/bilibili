@@ -98,7 +98,7 @@
     transition: transform 0.4s,opacity 0.4s;
   }
   .square_class>img{
-    width: 32px;
+    width: 2.1vw;
   }
   .section_box{
     transition: 0.4s;
@@ -109,6 +109,7 @@
     padding: 0 6px;
     color: white;
     font-weight: 600;
+    font-size: 1.05vw;
     display: flex;
     align-items: center;
     justify-content: center;

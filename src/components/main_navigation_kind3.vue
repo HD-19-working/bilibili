@@ -27,18 +27,18 @@
 
 <style scoped>
   .kind3_box{
-    margin: 4px 1px 0 1px;
+    margin: 0.26vw 1px 0 1px;
   }
   .tag_box{
     display: flex;
     align-items: center;
   }
   .tag_box>img{
-    width: 28px;
-    height: 28px;
+    width: 1.84vw;
+    height: 1.84vw;
   }
   .tag_box>span{
-    font-size: 14px;
+    font-size: 0.92vw;
     font-weight: 600;
     color: black;
   }

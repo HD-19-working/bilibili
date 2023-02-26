@@ -114,14 +114,14 @@
     padding: 20px 0;
   }
   .navigation_kind1{
-    width: 200px;
+    width: 15%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-right: 5px;
   }
   .navigation_kind2{
-    height: 60px;
+    height: 3.95vw;
     flex: 1;
     min-width: 640px;
     display: flex;
@@ -133,8 +133,8 @@
     padding: 0 5px;
   }
   .navigation_kind3{
-    width: 220px;
-    height: 70px;
+    width: 17%;
+    height: 4.61vw;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

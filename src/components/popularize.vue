@@ -58,16 +58,16 @@
   .popularize_head{
     display: flex;
     align-items: center;
-    padding: 30px 0 15px 0;
+    padding: 1.97vw 0 0.98vw 0;
   }
   .popularize_head>img{
-    width: 34px;
+    width: 1.6vw;
   }
   .popularize_head span{
-    font-size: 22px;
+    font-size: 1.31vw;
     color: black;
     font-weight: 600;
-    padding-left: 6px;
+    padding-left: 0.39vw;
     transition: 0.2s;
   }
   .popularize_head span:hover{
